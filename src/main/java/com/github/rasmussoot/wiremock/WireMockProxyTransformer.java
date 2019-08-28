@@ -1,3 +1,5 @@
+package com.github.rasmussoot.wiremock;
+
 import com.github.tomakehurst.wiremock.common.FileSource;
 import com.github.tomakehurst.wiremock.extension.Parameters;
 import com.github.tomakehurst.wiremock.extension.ResponseDefinitionTransformer;
@@ -27,6 +29,6 @@ public class WireMockProxyTransformer extends ResponseDefinitionTransformer {
 
     @Override
     public String getName() {
-        return "my-proxy";
+        return "proxy";
     }
 }
